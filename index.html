@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Min OShop</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>ᴍɪɴ OSmart Shop 🛒</h1>
+		</header>
+
+		<section class="filters">
+			<select id="brandFilter">
+				<option value="all">Все бренды</option>
+				<option value="Apple">Apple</option>
+				<option value="Samsung">Samsung</option>
+			</select>
+		</section>
+
+		<section class="catalog" id="catalog"></section>
+
+		<section class="cart">
+			<h2>Корзина</h2>
+			<ul id="cart"></ul>
+			<p>Итого: <span id="total">0</span> $</p>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
